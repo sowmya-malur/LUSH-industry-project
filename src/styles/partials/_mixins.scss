@@ -21,3 +21,8 @@
     $border-radius: 3.125rem; 
     $element-mobile-height: 3.125rem; 
   }
+
+@mixin icon-size {
+  height: 20px;
+  width: auto;
+}

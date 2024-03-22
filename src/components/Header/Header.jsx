@@ -6,6 +6,7 @@ import country from "../../assets/icons/canada.png";
 
 import "./Header.scss";
 import { NavLink, Link } from "react-router-dom";
+import React from "react";
 
 function Header() {
   return (

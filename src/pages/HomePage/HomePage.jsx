@@ -1,8 +1,11 @@
+import Header from "../../components/Header/Header";
+
 function HomePage() {
     return(
-        <main>
-            <h1>main page</h1>
-        </main>
+        <>
+           <Header/>
+            <h1>main page Todo</h1>
+        </>
     );
 }
 

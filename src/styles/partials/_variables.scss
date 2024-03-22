@@ -4,6 +4,7 @@ $desktop-breakpoint: 1280px;
 
 //Primary colors
 $color-primary-text: rgb(0,0,0); //Black
+$color-secondary-text: #333333;
 $color-cta-active: rgb(0,0,0); //Black
 $color-global: #ffffff; //White
 
@@ -31,17 +32,17 @@ $font-family-helvetica-replacement: "TeXGyreHeros", sans-serif;
 $font-family-handwritten-replacement: "LushHandwritten", sans-serif;
 
 // mobile font sizes
-$mobile-font-size-header: 1.75rem; // 28px
-$mobile-header-line-height: 1.357; // 36px
+$mobile-font-size-header: 1.75rem; 
+$mobile-header-line-height: 1.357; 
 
-$mobile-font-size-sub-header: 1.25rem; // 20px
-$mobile-sub-header-line-height: 1.75rem; // 28px
+$mobile-font-size-sub-header: 1.5rem; 
+// $mobile-sub-header-line-height: 1.75rem; // 28px
 
-$mobile-font-size-label-button: 0.813rem; // 13px
-$mobile-label-button-line-height: 1.25rem; // 20px
+// $mobile-font-size-label-button: 0.813rem; // 13px
+// $mobile-label-button-line-height: 1.25rem; // 20px
 
-$mobile-font-size-table-header: 0.688rem; // 11px
-$mobile-table-header-line-height: 1rem; // 16px
+// $mobile-font-size-table-header: 0.688rem; // 11px
+// $mobile-table-header-line-height: 1rem; // 16px
 
 $mobile-font-size-body: 0.825rem; 
 
