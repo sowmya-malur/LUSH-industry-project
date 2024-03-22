@@ -5,6 +5,8 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 // import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import HomePage from './pages/HomePage/HomePage';
+import ProfilePage from './pages/ProfilePage/ProfilePage';
+import CheckoutPage from './pages/CheckoutPage/CheckoutPage';
 
 function App() {
   return (
@@ -12,7 +14,9 @@ function App() {
             <BrowserRouter>
             <Header>
               <Routes>
-              <Route path="/" element={<HomePage />} />
+              <Route path="/" element={<HomePage />}/>
+              <Route path="/profile" element={<ProfilePage />} />
+              <Route path="/checkout" element={<CheckoutPage/>}/>
               </Routes>
             </Header>
             </BrowserRouter>

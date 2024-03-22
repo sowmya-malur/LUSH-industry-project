@@ -30,6 +30,9 @@ body {
 }
 
 .app {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
     &__header {
         font-family: $font-family-helvetica-replacement;
         font-weight: 800;   
@@ -41,3 +44,4 @@ body {
         font-size: $mobile-font-size-prod-title;
     }
 }
+

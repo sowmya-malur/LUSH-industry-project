@@ -16,29 +16,13 @@ function Header() {
       <nav className="header__nav">
         <ul className="header__list">
           <img className="header__search" src={search} alt="search-icon" />
-          <Link to="/profile">
+          <NavLink to="/profile">
             <img className="header__profile" src={profile} alt="profile-icon" />
-          </Link>
+          </NavLink>
           <img className="header__country" src={country} alt="canada-flag" />
-          <Link to="/cart">
+          <NavLink to="/checkout">
             <img className="header__bag" src={bag} alt="bag-icon" />
-          </Link>
-          {/* <NavLink
-              className={({ isActive }) =>
-                isActive ? "header__link header__link--active" : "header__link"
-              }
-              to={"/" || "/warehouses"}
-            >
-              Warehouses
-            </NavLink>
-            <NavLink
-              className={({ isActive }) =>
-                isActive ? "header__link header__link--active" : "header__link"
-              }
-              to="/inventory"
-            >
-              Inventory
-            </NavLink> */}
+          </NavLink>
         </ul>
       </nav>
     </header>
