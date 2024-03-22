@@ -13,6 +13,7 @@
     line-height: 1.417;
     font-weight: $font-weight-semi-bold;
     letter-spacing: 0.6px;
+    padding-bottom: 1rem;
   }
 
   &__icon {
@@ -24,49 +25,91 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    // padding: 1rem;
-  }
-
-  &__button-plus {
-    flex: 1 1 0%;
-    color: rgb(0, 0, 0);
-    font-size: 0.875rem;
-    line-height: 1.571;
-    letter-spacing: 0.5px;
-    background: rgb(255, 255, 255);
-    border-radius: 8px;
-    border: 1px solid rgb(203, 203, 203);
-    width: 48px;
-    height: 40px;
-  }
-
-  &__button-minus {
-    flex: 1 1 0%;
-    color: rgb(0, 0, 0);
-    font-size: 0.875rem;
-    line-height: 1.571;
-    letter-spacing: 0.5px;
-    background: rgb(255, 255, 255);
-    border-radius: 8px;
-    border: 1px solid rgb(203, 203, 203);
-    width: 48px;
-    height: 40px;
-  }
-
-  &__select {
-    background: url("../../assets/icons/down-arrow.png");
-    // Fix the image size.
-    appearance: none;
-    border-radius: 0px;
-    border: 1px solid rgb(203, 203, 203);
-    color: rgb(51, 51, 51);
-    font-size: 0.75rem;
-    letter-spacing: 0.1rem;
-    width: 40%;
-    padding: 0.6rem 2rem 0.8rem 1rem;
   }
 
   &__list {
     list-style-type: none;
   }
+
+  &__row-1 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__col-1 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+  }
+
+  &__image {
+    width: 56px;
+    height: 56px;
+  }
+
+  &__prod-title {
+    font-family: $font-family-handwritten-replacement;
+    font-size: $mobile-font-size-prod-title;
+    line-height: $mobile-prod-title-line-height;
+  }
+
+  &__prod-type {
+    font-size: $mobile-font-size-prod-details;
+    color: #333333;
+    margin: 1rem 0;
+  }
+
+  &__vol {
+    margin-right: 0.75rem;
+  }
+
+  &__details {
+    padding: 1rem;
+    background-color: $color-product-background-light;
+  }
+}
+
+.checkout-header {
+  padding: 0.8125rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  &__price {
+    font-size: $mobile-font-size-from-price;
+    line-height: $mobile-from-price-line-height;
+    font-weight: $font-weight-bold;
+  }
+
+  &__title {
+    font-size: $mobile-font-size-del-status;
+    font-weight: $font-weight-bold;
+  }
+
+  &__logo {
+    width: 115px;
+    height: 45px;
+  }
+
+  &__icon {
+    height: 20px;
+    width: auto;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+  }
+
+  &__title-wrapper {
+    display: flex;
+    gap: 1rem;
+  }
+}
+
+.outer-container {
+  display: flex;
+  justify-content: space-between;
 }
